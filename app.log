@@ -1,0 +1,287 @@
+2024-12-22 18:49:10 INFO: Flask app starting up
+2024-12-22 18:49:10 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2024-12-22 18:49:10 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 18:49:30 INFO: 172.19.0.1 - - [22/Dec/2024 18:49:30] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 18:50:27 INFO: 172.19.0.1 - - [22/Dec/2024 18:50:27] "[35m[1mPOST /api/student/history HTTP/1.1[0m" 500 -
+2024-12-22 18:51:48 INFO: 172.19.0.1 - - [22/Dec/2024 18:51:48] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 18:53:06 INFO: 172.19.0.1 - - [22/Dec/2024 18:53:06] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 18:56:19 INFO: 172.19.0.1 - - [22/Dec/2024 18:56:19] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:00:11 INFO: 172.19.0.1 - - [22/Dec/2024 19:00:11] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:02:25 INFO: 172.19.0.1 - - [22/Dec/2024 19:02:25] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 19:03:16 INFO: 172.19.0.1 - - [22/Dec/2024 19:03:16] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:08:55 INFO: 172.19.0.1 - - [22/Dec/2024 19:08:55] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:25:36 INFO: 172.19.0.1 - - [22/Dec/2024 19:25:36] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 19:26:38 INFO: 172.19.0.1 - - [22/Dec/2024 19:26:38] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:28:04 INFO: 172.19.0.1 - - [22/Dec/2024 19:28:04] "[35m[1mGET /api/student/historyg HTTP/1.1[0m" 500 -
+2024-12-22 19:28:12 INFO: 172.19.0.1 - - [22/Dec/2024 19:28:12] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:38:57 INFO: 172.19.0.1 - - [22/Dec/2024 19:38:57] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:39:07 INFO: 172.19.0.1 - - [22/Dec/2024 19:39:07] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:39:27 INFO: 172.19.0.1 - - [22/Dec/2024 19:39:27] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2024-12-22 19:40:02 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:02] "[35m[1mPOST /auth/ HTTP/1.1[0m" 500 -
+2024-12-22 19:40:20 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:20] "GET /auth/ HTTP/1.1" 200 -
+2024-12-22 19:40:41 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:41] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:40:55 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:55] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:43:56 INFO: 172.19.0.1 - - [22/Dec/2024 19:43:56] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:45:51 INFO: 172.19.0.1 - - [22/Dec/2024 19:45:51] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:50:36 INFO: 172.19.0.1 - - [22/Dec/2024 19:50:36] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:50:43 INFO: 172.19.0.1 - - [22/Dec/2024 19:50:43] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:51:22 INFO: 172.19.0.1 - - [22/Dec/2024 19:51:22] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:00:24 INFO: 172.19.0.1 - - [22/Dec/2024 20:00:24] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:02:52 INFO: 172.19.0.1 - - [22/Dec/2024 20:02:52] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:08:07 INFO: 172.19.0.1 - - [22/Dec/2024 20:08:07] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:11:23 INFO: 172.19.0.1 - - [22/Dec/2024 20:11:23] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:12:27 INFO: 172.19.0.1 - - [22/Dec/2024 20:12:27] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:17:05 INFO: 172.19.0.1 - - [22/Dec/2024 20:17:05] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:53:35 INFO: Flask app starting up
+2024-12-22 20:53:35 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2024-12-22 20:53:35 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 20:55:43 INFO: Flask app starting up
+2024-12-22 20:56:31 INFO: Flask app starting up
+2024-12-22 21:00:49 INFO: Flask app starting up
+2024-12-22 21:00:49 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2024-12-22 21:00:49 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 21:26:36 INFO: Flask app starting up
+2024-12-22 21:26:36 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2024-12-22 21:26:36 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 21:33:36 INFO: Flask app starting up
+2024-12-22 21:33:36 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2024-12-22 21:33:36 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 21:33:36 INFO:  * Restarting with stat
+2024-12-22 21:33:37 INFO: Flask app starting up
+2024-12-22 21:33:37 WARNING:  * Debugger is active!
+2024-12-22 21:33:37 INFO:  * Debugger PIN: 543-725-420
+2024-12-22 21:37:03 INFO:  * Detected change in '/app/api/main.py', reloading
+2024-12-22 21:37:03 INFO:  * Restarting with stat
+2024-12-22 21:37:03 INFO: Flask app starting up
+2024-12-22 21:37:03 WARNING:  * Debugger is active!
+2024-12-22 21:37:03 INFO:  * Debugger PIN: 543-725-420
+2024-12-22 21:37:20 INFO:  * Detected change in '/app/api/main.py', reloading
+2024-12-22 21:37:20 INFO:  * Restarting with stat
+2024-12-22 21:37:20 INFO: Flask app starting up
+2024-12-22 21:37:20 WARNING:  * Debugger is active!
+2024-12-22 21:37:20 INFO:  * Debugger PIN: 543-725-420
+2024-12-22 21:38:51 INFO:  * Detected change in '/app/app.py', reloading
+2024-12-22 21:38:51 INFO:  * Restarting with stat
+2024-12-22 21:38:52 INFO: Flask app starting up
+2024-12-22 21:38:52 WARNING:  * Debugger is active!
+2024-12-22 21:38:52 INFO:  * Debugger PIN: 543-725-420
+2024-12-22 21:42:24 INFO:  * Detected change in '/app/app.py', reloading
+2024-12-22 21:42:24 INFO:  * Restarting with stat
+2024-12-22 21:42:24 INFO: Flask app starting up
+2024-12-22 21:42:24 WARNING:  * Debugger is active!
+2024-12-22 21:42:24 INFO:  * Debugger PIN: 543-725-420
+2024-12-22 21:43:34 INFO: Flask app starting up
+2024-12-22 21:43:34 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2024-12-22 21:43:34 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 21:43:34 INFO:  * Restarting with stat
+2024-12-22 21:43:34 INFO: Flask app starting up
+2024-12-22 21:43:34 WARNING:  * Debugger is active!
+2024-12-22 21:43:34 INFO:  * Debugger PIN: 543-725-420
+2024-12-22 21:47:56 INFO: Flask app starting up
+2024-12-22 21:47:56 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://172.21.0.3:5005
+2024-12-22 21:47:56 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 21:47:56 INFO:  * Restarting with stat
+2024-12-22 21:47:57 INFO: Flask app starting up
+2024-12-22 21:47:57 WARNING:  * Debugger is active!
+2024-12-22 21:47:57 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 21:48:24 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:24] "GET / HTTP/1.1" 200 -
+2024-12-22 21:48:24 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-22 21:48:24 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:24] "[35m[1mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 500 -
+2024-12-22 21:48:24 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:24] "[35m[1mGET /apple-touch-icon.png HTTP/1.1[0m" 500 -
+2024-12-22 21:48:31 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:31] "[35m[1mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 500 -
+2024-12-22 21:48:31 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:31] "[35m[1mGET /apple-touch-icon.png HTTP/1.1[0m" 500 -
+2024-12-22 21:48:31 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-22 21:48:42 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:42] "GET / HTTP/1.1" 200 -
+2024-12-22 21:48:44 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:44] "GET / HTTP/1.1" 200 -
+2024-12-22 21:48:58 INFO: 172.21.0.1 - - [22/Dec/2024 21:48:58] "GET / HTTP/1.1" 200 -
+2024-12-22 21:49:18 INFO: 172.21.0.1 - - [22/Dec/2024 21:49:18] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 21:50:40 INFO: 172.21.0.1 - - [22/Dec/2024 21:50:40] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 21:52:58 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 21:52:58 INFO:  * Restarting with stat
+2024-12-22 21:52:58 INFO: Flask app starting up
+2024-12-22 21:52:58 WARNING:  * Debugger is active!
+2024-12-22 21:52:58 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 21:53:19 INFO: 172.21.0.1 - - [22/Dec/2024 21:53:19] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 21:53:20 INFO: 172.21.0.1 - - [22/Dec/2024 21:53:20] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 21:53:21 INFO: 172.21.0.1 - - [22/Dec/2024 21:53:21] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 21:57:47 INFO: 172.21.0.1 - - [22/Dec/2024 21:57:47] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 22:00:36 INFO:  * Detected change in '/app/config.py', reloading
+2024-12-22 22:00:37 INFO:  * Restarting with stat
+2024-12-22 22:00:37 INFO: Flask app starting up
+2024-12-22 22:00:37 WARNING:  * Debugger is active!
+2024-12-22 22:00:37 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:02:10 INFO:  * Detected change in '/app/config.py', reloading
+2024-12-22 22:02:10 INFO:  * Restarting with stat
+2024-12-22 22:03:28 INFO:  * Restarting with stat
+2024-12-22 22:04:12 INFO:  * Restarting with stat
+2024-12-22 22:04:13 INFO: Flask app starting up
+2024-12-22 22:04:13 WARNING:  * Debugger is active!
+2024-12-22 22:04:13 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:04:20 INFO: Flask app starting up
+2024-12-22 22:04:20 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://172.21.0.3:5005
+2024-12-22 22:04:20 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 22:04:20 INFO:  * Restarting with stat
+2024-12-22 22:04:20 INFO: Flask app starting up
+2024-12-22 22:04:20 WARNING:  * Debugger is active!
+2024-12-22 22:04:20 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:04:42 INFO: 172.21.0.1 - - [22/Dec/2024 22:04:42] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 22:06:11 INFO: 172.21.0.1 - - [22/Dec/2024 22:06:11] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+2024-12-22 22:06:32 INFO: 172.21.0.1 - - [22/Dec/2024 22:06:32] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 22:08:44 INFO: 172.21.0.1 - - [22/Dec/2024 22:08:44] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 22:31:10 INFO:  * Detected change in '/app/app.py', reloading
+2024-12-22 22:31:10 INFO:  * Restarting with stat
+2024-12-22 22:31:10 INFO: Flask app starting up
+2024-12-22 22:31:10 WARNING:  * Debugger is active!
+2024-12-22 22:31:10 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:31:30 INFO:  * Detected change in '/app/api/auth.py', reloading
+2024-12-22 22:31:30 INFO:  * Restarting with stat
+2024-12-22 22:31:30 INFO: Flask app starting up
+2024-12-22 22:31:30 WARNING:  * Debugger is active!
+2024-12-22 22:31:30 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:32:58 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 22:32:58 INFO:  * Restarting with stat
+2024-12-22 22:32:59 INFO: Flask app starting up
+2024-12-22 22:32:59 WARNING:  * Debugger is active!
+2024-12-22 22:32:59 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:33:05 INFO: 172.21.0.1 - - [22/Dec/2024 22:33:05] "[35m[1mGET /api/student/history HTTP/1.1[0m" 500 -
+2024-12-22 22:34:33 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 22:34:33 INFO:  * Restarting with stat
+2024-12-22 22:34:33 INFO: Flask app starting up
+2024-12-22 22:34:33 WARNING:  * Debugger is active!
+2024-12-22 22:34:33 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:35:05 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 22:35:05 INFO:  * Restarting with stat
+2024-12-22 22:35:06 INFO: Flask app starting up
+2024-12-22 22:35:06 WARNING:  * Debugger is active!
+2024-12-22 22:35:06 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:35:10 INFO: 172.21.0.1 - - [22/Dec/2024 22:35:10] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 22:39:54 INFO: 172.21.0.1 - - [22/Dec/2024 22:39:54] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 22:42:45 INFO: 172.21.0.1 - - [22/Dec/2024 22:42:45] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 22:51:34 INFO:  * Detected change in '/app/api/utils.py', reloading
+2024-12-22 22:51:34 INFO:  * Restarting with stat
+2024-12-22 22:51:35 INFO: Flask app starting up
+2024-12-22 22:51:35 WARNING:  * Debugger is active!
+2024-12-22 22:51:35 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:52:06 INFO:  * Detected change in '/app/api/auth.py', reloading
+2024-12-22 22:52:06 INFO:  * Restarting with stat
+2024-12-22 22:52:23 INFO:  * Restarting with stat
+2024-12-22 22:53:21 INFO:  * Restarting with stat
+2024-12-22 22:53:35 INFO:  * Restarting with stat
+2024-12-22 22:55:44 INFO:  * Restarting with stat
+2024-12-22 22:55:53 INFO:  * Restarting with stat
+2024-12-22 22:58:12 INFO:  * Restarting with stat
+2024-12-22 22:58:12 INFO: Flask app starting up
+2024-12-22 22:58:12 WARNING:  * Debugger is active!
+2024-12-22 22:58:12 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 22:59:15 INFO: 172.21.0.1 - - [22/Dec/2024 22:59:15] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 22:59:17 INFO: 172.21.0.1 - - [22/Dec/2024 22:59:17] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 23:06:09 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:09] "GET /auth/ HTTP/1.1" 200 -
+2024-12-22 23:06:09 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-22 23:06:09 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:09] "[35m[1mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 500 -
+2024-12-22 23:06:09 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:09] "[35m[1mGET /apple-touch-icon.png HTTP/1.1[0m" 500 -
+2024-12-22 23:06:39 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:39] "[35m[1mGET /api/test-token HTTP/1.1[0m" 500 -
+2024-12-22 23:06:47 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 23:06:47 INFO:  * Restarting with stat
+2024-12-22 23:06:47 INFO: Flask app starting up
+2024-12-22 23:06:47 WARNING:  * Debugger is active!
+2024-12-22 23:06:47 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:06:53 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:53] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:06:57 INFO: 172.21.0.1 - - [22/Dec/2024 23:06:57] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:07:24 INFO: 172.21.0.1 - - [22/Dec/2024 23:07:24] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:07:46 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 23:07:46 INFO:  * Restarting with stat
+2024-12-22 23:07:46 INFO: Flask app starting up
+2024-12-22 23:07:46 WARNING:  * Debugger is active!
+2024-12-22 23:07:46 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:07:51 INFO: 172.21.0.1 - - [22/Dec/2024 23:07:51] "[35m[1mGET /api/test-token HTTP/1.1[0m" 500 -
+2024-12-22 23:09:37 INFO: 172.21.0.1 - - [22/Dec/2024 23:09:37] "[35m[1mGET /api/test-token HTTP/1.1[0m" 500 -
+2024-12-22 23:11:33 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 23:11:33 INFO:  * Restarting with stat
+2024-12-22 23:11:33 INFO: Flask app starting up
+2024-12-22 23:11:33 WARNING:  * Debugger is active!
+2024-12-22 23:11:33 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:11:43 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 23:11:43 INFO:  * Restarting with stat
+2024-12-22 23:11:43 INFO: Flask app starting up
+2024-12-22 23:11:43 WARNING:  * Debugger is active!
+2024-12-22 23:11:43 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:11:48 INFO: 172.21.0.1 - - [22/Dec/2024 23:11:48] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:11:51 INFO: 172.21.0.1 - - [22/Dec/2024 23:11:51] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:11:52 INFO: 172.21.0.1 - - [22/Dec/2024 23:11:52] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:11:53 INFO: 172.21.0.1 - - [22/Dec/2024 23:11:53] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:33:34 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 23:33:34 INFO:  * Restarting with stat
+2024-12-22 23:33:34 INFO: Flask app starting up
+2024-12-22 23:33:34 WARNING:  * Debugger is active!
+2024-12-22 23:33:34 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:35:31 INFO:  * Detected change in '/app/api/utils.py', reloading
+2024-12-22 23:35:31 INFO:  * Restarting with stat
+2024-12-22 23:35:31 INFO: Flask app starting up
+2024-12-22 23:35:31 WARNING:  * Debugger is active!
+2024-12-22 23:35:31 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:35:35 INFO: 172.21.0.1 - - [22/Dec/2024 23:35:35] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:36:34 INFO: 172.21.0.1 - - [22/Dec/2024 23:36:34] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:37:18 INFO: Flask app starting up
+2024-12-22 23:37:19 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://172.21.0.3:5005
+2024-12-22 23:37:19 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 23:37:19 INFO:  * Restarting with stat
+2024-12-22 23:37:19 INFO: Flask app starting up
+2024-12-22 23:37:19 WARNING:  * Debugger is active!
+2024-12-22 23:37:19 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:46:58 INFO: 172.21.0.1 - - [22/Dec/2024 23:46:58] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:50:30 INFO: 172.21.0.1 - - [22/Dec/2024 23:50:30] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:50:37 INFO: 172.21.0.1 - - [22/Dec/2024 23:50:37] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 23:50:58 INFO: 172.21.0.1 - - [22/Dec/2024 23:50:58] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:55:39 INFO:  * Detected change in '/app/config.py', reloading
+2024-12-22 23:55:39 INFO:  * Restarting with stat
+2024-12-22 23:55:39 INFO: Flask app starting up
+2024-12-22 23:55:40 WARNING:  * Debugger is active!
+2024-12-22 23:55:40 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:56:00 INFO: 172.21.0.1 - - [22/Dec/2024 23:56:00] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:56:02 INFO: 172.21.0.1 - - [22/Dec/2024 23:56:02] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:56:02 INFO: 172.21.0.1 - - [22/Dec/2024 23:56:02] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:56:38 INFO:  * Detected change in '/app/api/routes.py', reloading
+2024-12-22 23:56:38 INFO:  * Restarting with stat
+2024-12-22 23:58:41 INFO:  * Restarting with stat
+2024-12-22 23:58:41 INFO: Flask app starting up
+2024-12-22 23:58:41 WARNING:  * Debugger is active!
+2024-12-22 23:58:41 INFO:  * Debugger PIN: 125-880-611
+2024-12-22 23:58:49 INFO: 172.21.0.1 - - [22/Dec/2024 23:58:49] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:58:50 INFO: 172.21.0.1 - - [22/Dec/2024 23:58:50] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-22 23:58:51 INFO: 172.21.0.1 - - [22/Dec/2024 23:58:51] "[31m[1mGET /api/test-token HTTP/1.1[0m" 401 -
+2024-12-23 06:18:47 INFO:  * Detected change in '/app/app.py', reloading
+2024-12-23 06:18:47 INFO:  * Restarting with stat
+2024-12-23 06:21:45 INFO:  * Restarting with stat
+2024-12-23 06:22:49 INFO:  * Restarting with stat
+2024-12-23 06:23:02 INFO:  * Restarting with stat
+2024-12-23 06:23:44 INFO:  * Restarting with stat
+2024-12-23 06:29:07 INFO:  * Restarting with stat
+2024-12-23 06:29:22 INFO:  * Restarting with stat
+2024-12-23 06:29:39 INFO:  * Restarting with stat

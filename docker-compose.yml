@@ -1,0 +1,78 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    container_name: flask_api
+    ports:
+      - "5005:5005"
+    environment:
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
+      - FLASK_APP=${FLASK_APP}
+      - FLASK_ENV=${FLASK_ENV}
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+    command: flask run --host=0.0.0.0 --port=5005 --reload
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    networks:
+      - api_network
+
+  postgres_primary:
+    image: postgres:16
+    container_name: postgres_primary
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: course_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - primary_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    command:
+      - postgres
+      - -c wal_level=replica
+      - -c max_wal_senders=10
+      - -c max_replication_slots=10
+      - -c hot_standby=on
+
+  postgres_replica:
+    image: postgres:16
+    container_name: postgres_replica
+    environment:
+      POSTGRES_USER: replicator
+      POSTGRES_PASSWORD: replicator_password
+    ports:
+      - "5445:5432"
+    depends_on:
+      - postgres_primary
+    volumes:
+      - replica_data:/var/lib/postgresql/data
+    command:
+      bash -c "
+        until pg_basebackup -h postgres_primary -D /var/lib/postgresql/data -U replicator -vP -W
+        do
+          echo 'Waiting for primary...'
+          sleep 1
+        done
+        echo 'Replication initialized'
+        postgres"
+    
+
+volumes:
+  primary_data:
+  replica_data:
+
+networks:
+  api_network:
+    driver: bridge
+
+
